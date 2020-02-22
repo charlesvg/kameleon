@@ -13,10 +13,11 @@
     "noImplicitReturns": true,
     "suppressImplicitAnyIndexErrors": true,
     "strictPropertyInitialization": false,
-    "noUnusedLocals": true,
+    "noUnusedLocals": false,
     "pretty": true,
     "strict": true,
     "target": "es2017",
+    "esModuleInterop": true,
     "lib": [
       "dom",
       "es2017"

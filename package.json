@@ -12,9 +12,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "pixelmatch": "^5.1.0",
+    "pngjs": "^3.4.0",
     "puppeteer-core": "^2.1.1"
   },
   "devDependencies": {
+    "@types/node": "^13.7.4",
+    "@types/pixelmatch": "^5.0.0",
+    "@types/pngjs": "^3.4.1",
     "@types/puppeteer-core": "^2.0.0",
     "typescript": "^3.7.3"
   }
