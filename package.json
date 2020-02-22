@@ -4,13 +4,18 @@
   "description": "",
   "main": "dist/app.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "node dist/app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "puppeteer-core": "^2.1.1"
+  },
   "devDependencies": {
+    "@types/puppeteer-core": "^2.0.0",
     "typescript": "^3.7.3"
   }
 }
